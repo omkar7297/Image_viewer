@@ -1,5 +1,5 @@
-from app import admin, mongo
 from flask_admin.contrib.pymongo import ModelView
+from app import admin, mongo
 from app.models import User
 
 
